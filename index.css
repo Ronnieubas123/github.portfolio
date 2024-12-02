@@ -645,10 +645,18 @@ body:not(.user-is-tabbing) a:focus {
     transform: translateY(3px);
 }
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
     .footer {
         padding: var(--gutter-medium) 0;
     } 
+    section#work {
+        padding-top: 0px !important;
+    }
+    .work__box:not(:last-child) {
+        padding-bottom: 2rem;
+        border-bottom: solid 1px #333333;
+        margin-bottom: 5rem;
+    }
 }
 
 .wordpress-plugins-builder-list {
