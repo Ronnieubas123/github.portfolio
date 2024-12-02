@@ -653,7 +653,7 @@ body:not(.user-is-tabbing) a:focus {
         padding-top: 0px !important;
     }
     .work__box:not(:last-child) {
-        padding-bottom: 2rem !important;
+        padding-bottom: 5rem !important;
         border-bottom: solid 1px #333333;
         margin-bottom: 5rem !important;
     }
